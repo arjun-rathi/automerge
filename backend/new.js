@@ -195,6 +195,7 @@ function seekWithinBlock(ops, docCols, actorIds, resumeInsertion) {
  * Returns the number of list elements that should be added to a list index when skipping over the
  * block with index `blockIndex` in the list object with object ID consisting of actor number
  * `objActorNum` and counter `objCtr`.
+ * New Comment line
  */
 function visibleListElements(docState, blockIndex, objActorNum, objCtr) {
   const thisBlock = docState.blocks[blockIndex]
