@@ -3,7 +3,7 @@ const { BackendDoc } = require('./new')
 const { backendState } = require('./util')
 
 /**
- * Returns an empty node state.
+ * Returns an empty node state. Comments added
  */
 function init() {
   return {state: new BackendDoc(), heads: []}
