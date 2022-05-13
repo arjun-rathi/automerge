@@ -640,8 +640,7 @@ database = Automerge.change(database, doc => {
   doc.publications.remove('29f6cd15-61ff-460d-b7fb-39a5594f32d5')
 })
 ```
-
-Note that currently the `Automerge.Table` type does not enforce a schema. By convention, the row
+LOL. Note that currently the `Automerge.Table` type does not enforce a schema. By convention, the row
 objects that you add to a table should have the same properties (like columns in a table), but
 Automerge does not enforce this. This is because different users may be running different versions
 of your app, which might be using different properties.
